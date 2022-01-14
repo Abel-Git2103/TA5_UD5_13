@@ -5,9 +5,9 @@ public class CalculadoraInversaAPP {
 	public static void main(String[] args) {
 		
 		String valorA =JOptionPane.showInputDialog("Introduce el valor A");
-		int valorEnteroA = Integer.parseInt(valorA);
+		double valorEnteroA = Double.parseDouble(valorA);
 		String valorB =JOptionPane.showInputDialog("Introduce el valor B");
-		int valorEnteroB = Integer.parseInt(valorB);
+		double valorEnteroB = Double.parseDouble(valorB);
 		String signo = JOptionPane.showInputDialog("Introduce el signo aritmético");
 		
 		switch (signo) {
