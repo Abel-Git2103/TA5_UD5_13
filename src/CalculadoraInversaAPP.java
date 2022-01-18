@@ -12,25 +12,25 @@ public class CalculadoraInversaAPP {
 		
 		switch (signo) {
 			case "+":
-				System.out.println("El resultado de A + B es = " + (valorEnteroA + valorEnteroB));
+				JOptionPane.showMessageDialog(null, "resultado de A + B es = " + (valorEnteroA + valorEnteroB));
 				break;
 			case "-":
-				System.out.println("El resultado de A - B es = " + (valorEnteroA - valorEnteroB));
+				JOptionPane.showMessageDialog(null, "El resultado de A - B es = " + (valorEnteroA - valorEnteroB));
 				break;
 			case "*":
-				System.out.println("El resultado de A * B es = " + (valorEnteroA * valorEnteroB));
+				JOptionPane.showMessageDialog(null, "El resultado de A * B es = " + (valorEnteroA * valorEnteroB));
 				break;
 			case "/":
-				System.out.println("El resultado de A / B es = " + (valorEnteroA / valorEnteroB));
+				JOptionPane.showMessageDialog(null, "El resultado de A / B es = " + (valorEnteroA / valorEnteroB));
 				break;
 			case "^":
-				System.out.println("El resultado de A ^ B es = " + (Math.pow(valorEnteroA, valorEnteroB)));
+				JOptionPane.showMessageDialog(null, "El resultado de A ^ B es = " + (Math.pow(valorEnteroA, valorEnteroB)));
 				break;
 			case "%":
-				System.out.println("El resto de A / B es = " + (valorEnteroA % valorEnteroB));
+				JOptionPane.showMessageDialog(null, "El resto de A / B es = " + (valorEnteroA % valorEnteroB));
 				break;
 			default:
-				System.out.println("El valor introducido no es correcto");
+				JOptionPane.showMessageDialog(null, "El valor introducido no es correcto");
 				
 		}
 	}
